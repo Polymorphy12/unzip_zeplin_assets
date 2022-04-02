@@ -1,9 +1,9 @@
 import os
 from shutil import copyfile
 
-originDir = 'C:/Users/ty79450/Desktop/창업/이미지들/'
+originDir = 'C:/Users/username/Desktop/창업/이미지들/'
 
-destPath = 'C:/Users/ty79450/Desktop/2019Dev/newHaktal/assets/images'
+destPath = 'C:/Users/username/Desktop/2019Dev/newHaktal/assets/images'
 
 folders = [name for name in os.listdir(originDir) if os.path.isdir(os.path.join(originDir,name))]
 
